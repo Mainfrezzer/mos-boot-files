@@ -39,5 +39,9 @@
       "zpool": "zsmalloc",
       "accept_threshold_percent": 90
     }
+  },
+  "binfmt": {
+    "enabled": false,
+    "architectures": []
   }
 }
