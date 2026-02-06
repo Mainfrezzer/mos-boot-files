@@ -48,6 +48,9 @@
       "enabled": false,
       "update_check": false,
       "netbird_service_params": null
+    },
+    "dnsmasq": {
+      "enabled": false
     }
   }
 }
