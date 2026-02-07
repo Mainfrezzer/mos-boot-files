@@ -3,5 +3,11 @@
   "backing_storage": "directory",
   "bridge": false,
   "directory": null,
-  "start_wait": "0"
+  "start_wait": "0",
+  "lxc_registry": "",
+  "backup_path": null,
+  "backups_to_keep": 2,
+  "compression": 4,
+  "threads": 2,
+  "use_snapshot": true
 }
