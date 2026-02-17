@@ -7,6 +7,11 @@
     "powersave": "on",
     "powerdown": 60
   },
+  "webui": {
+    "ports": {
+      "http": 80
+    }
+  },
   "ntp": {
     "enabled": true,
     "mode": "iburst",
