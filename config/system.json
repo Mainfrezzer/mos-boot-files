@@ -48,5 +48,14 @@
   "binfmt": {
     "enabled": false,
     "architectures": []
+  },
+  "webui": {
+    "ports": {
+      "http": 80
+    }
+  },
+  "update_check": {
+    "enabled": false,
+    "update_check_schedule": "15 9 * * *"
   }
 }
