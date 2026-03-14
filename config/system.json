@@ -53,9 +53,7 @@
     "ports": {
       "http": 80
     },
-    "listen_interfaces": [
-      "eth0"
-    ]
+    "listen_interfaces": []
   },
   "update_check": {
     "enabled": true,
