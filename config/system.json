@@ -52,7 +52,10 @@
   "webui": {
     "ports": {
       "http": 80
-    }
+    },
+    "listen_interfaces": [
+      "eth0"
+    ]
   },
   "update_check": {
     "enabled": true,
