@@ -13,6 +13,7 @@
       "https": 443
     },
     "https_enabled": true,
+    "local_dns_searchname": "local",
     "listen_interfaces": []
   },
   "ntp": {
