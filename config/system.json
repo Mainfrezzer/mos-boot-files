@@ -9,8 +9,11 @@
   },
   "webui": {
     "ports": {
-      "http": 80
-    }
+      "http": 80,
+      "https": 443
+    },
+    "https_enabled": true,
+    "listen_interfaces": []
   },
   "ntp": {
     "enabled": true,
