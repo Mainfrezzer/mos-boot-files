@@ -2,6 +2,14 @@
   "enabled": true,
   "initial_update": false,
   "schedule": "15 7 * * *",
+  "update_check": {
+    "enabled": false,
+    "update_check_schedule": "10 1 * * *",
+    "auto_update": {
+      "enabled": false,
+      "auto_update_schedule": "10 2 * * SAT"
+    }
+  },
   "page_entries": 24,
   "repositories": [
     "https://github.com/s3ppo/docker_json_templates",
