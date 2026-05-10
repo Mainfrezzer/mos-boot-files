@@ -1,0 +1,25 @@
+{
+  "enabled": false,
+  "user": false,
+  "token": "TOKEN",
+  "url": "https://ntfy.sh/mos",
+  "method": "POST",
+  "headers": {
+    "Content-Type": "application/json",
+    "Authorization": "Bearer {{.Token}}"
+  },
+  "body": {
+    "topic": "mos",
+    "title": "{{.Title}}",
+    "message": "{{.Message}}",
+    "priority": {
+      "$number": "{{.Priority}}"
+    }
+  },
+  "alert_mapping": {
+    "normal": 3,
+    "warning": 4,
+    "alert": 5
+  },
+  "color_prio": {}
+}
