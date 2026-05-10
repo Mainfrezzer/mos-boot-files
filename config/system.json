@@ -7,6 +7,8 @@
     "powersave": "on",
     "powerdown": 60
   },
+  "persist_history": false,
+  "persist_notifications": false,
   "webui": {
     "ports": {
       "http": 80,
