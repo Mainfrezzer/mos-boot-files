@@ -1,7 +1,7 @@
 {
   "hostname": "MOS",
-  "keymap": "de-latin1-nodeadkeys",
-  "timezone": "Europe/Vienna",
+  "keymap": "us",
+  "timezone": "Europe/London",
   "display": {
     "timeout": 30,
     "powersave": "on",
