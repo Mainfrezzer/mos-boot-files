@@ -64,5 +64,6 @@
   "update_check": {
     "enabled": true,
     "update_check_schedule": "15 9 * * *"
-  }
+  },
+  "logsize": 200
 }
