@@ -42,7 +42,12 @@
     "tailscale": {
       "enabled": false,
       "update_check": false,
-      "tailscaled_params": null
+      "tailscaled_params": null,
+      "web": {
+        "enabled": false,
+        "address": "0.0.0.0",
+        "port": 8088
+      }
     },
     "netbird": {
       "enabled": false,
